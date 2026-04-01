@@ -61,31 +61,11 @@ public class FileService {
         executorService.submit(() -> {
             synchronized (fileLock) {
                 try{
-                    System.out.println("Saving to: " +
-                            Paths.get(filePath).toAbsolutePath());
-                    System.out.println("Number of processes: " +
-                            registryHashMapProcess.getAllProcesses().size());
-
-                    System.out.println("Step 1 - creating wrapper");
                     ProcessInfoWrapper processInfoWrapper = new ProcessInfoWrapper();
-
-                    System.out.println("Step 2 - adding processes");
                     processInfoWrapper.processes = new ArrayList<>(registryHashMapProcess.getAllProcesses());
-
-                    System.out.println("Step 3 - converting to json, size: " +
-                            processInfoWrapper.processes.size());
                     String json = gson.toJson(processInfoWrapper);
-                    System.out.println("Step 4 - writing to file");
-                    System.out.println("JSON content: " + json);
                     Files.write(Paths.get(filePath), json.getBytes());
                 } catch (IOException e) {
-                    System.out.println("IOException: " + e.getMessage());
-                    e.printStackTrace();
-                } catch (StackOverflowError e) {
-                    System.out.println("StackOverflow — ciklicna referenca!");
-                    e.printStackTrace();
-                } catch (Exception e) {
-                    System.out.println("Exception: " + e.getMessage());
                     e.printStackTrace();
                 }
             }
@@ -96,13 +76,16 @@ public class FileService {
         executorService.submit(() -> {
             synchronized (fileLock) {
                 try{
+                    Files.createDirectories(Paths.get(folder));
                     String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy_MM_dd_HH_mm_ss"));
+                    String isoTimestamp = LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE_TIME) + "Z";
                     String filePath = folder + "/snapshot_"+timestamp+".csv";
                     StringBuilder stringBuilder = new StringBuilder();
-                    stringBuilder.append("process id, process name, cpu usage").append("ram usage, category, alias name \n");
+                    stringBuilder.append("timestamp,pid,process_name,cpu_usage,ram_usage,category,alias_name\n");
 
                     for(ProcessModel processModel : registryHashMapProcess.getAllProcesses()){
-                        stringBuilder.append(processModel.getProcessId()).append(",")
+                        stringBuilder.append(isoTimestamp).append(",")
+                                .append(processModel.getProcessId()).append(",")
                                 .append(processModel.getOriginalName()).append(",")
                                 .append(processModel.getCpuUsage()).append(",")
                                 .append(processModel.getRamUsage()).append(",")

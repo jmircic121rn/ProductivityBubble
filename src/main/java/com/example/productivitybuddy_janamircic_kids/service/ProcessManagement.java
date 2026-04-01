@@ -81,8 +81,9 @@ public class ProcessManagement {
             }
 
             double cpu = getCpuUsage(processId);
+            long ram = getRamUsage(processId);
 
-            registryHashMapProcess.setCpuAndRamUsage(processName, cpu, Runtime.getRuntime().totalMemory()/1024/1024);
+            registryHashMapProcess.setCpuAndRamUsage(processName, cpu, ram);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -104,13 +105,30 @@ public class ProcessManagement {
         try {
             ProcessBuilder pb = new ProcessBuilder(
                     "bash", "-c",
-                    "top -pid " + pid + " -l 1 -stats cpu | tail -1");
+                    "ps -p " + pid + " -o %cpu= 2>/dev/null");
             pb.redirectErrorStream(true);
             Process process = pb.start();
             String output = new String(process.getInputStream().readAllBytes()).trim();
+            if (output.isEmpty()) return 0.0;
             return Double.parseDouble(output);
         } catch (Exception e) {
             return 0.0;
+        }
+    }
+
+    private long getRamUsage(long pid) {
+        try {
+            // ps -p <pid> -o rss= vraca RSS u KB
+            ProcessBuilder pb = new ProcessBuilder(
+                    "bash", "-c",
+                    "ps -p " + pid + " -o rss= 2>/dev/null");
+            pb.redirectErrorStream(true);
+            Process process = pb.start();
+            String output = new String(process.getInputStream().readAllBytes()).trim();
+            if (output.isEmpty()) return 0;
+            return Long.parseLong(output) / 1024; // konvertuj KB u MB
+        } catch (Exception e) {
+            return 0;
         }
     }
 

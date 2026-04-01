@@ -97,17 +97,19 @@ public class MainApp extends Application {
     }
 
     public static void shutdown() {
-        watcherService.stop();
-        analyticsService.stop();
-        processManagement.shutdown();
-        snapshotScheduler.shutdown();
+        new Thread(() -> {
+            watcherService.stop();
+            analyticsService.stop();
+            processManagement.shutdown();
+            snapshotScheduler.shutdown();
 
-        registry.updateTotalTimeForAllProcesses();
+            registry.updateTotalTimeForAllProcesses();
 
-        fileService.saveProcessesToJsonFile(config.getMappingFile());
-        fileService.shutdown();
+            fileService.saveProcessesToJsonFile(config.getMappingFile());
+            fileService.shutdown(); // ceka da se save zavrsi pre nego sto nastavi
 
-        Platform.exit();
+            Platform.runLater(Platform::exit);
+        }).start();
     }
 
     public static void main(String[] args) {

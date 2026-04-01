@@ -43,6 +43,8 @@ public class ProcessRegistry {
             process.setTotalTimeSeconds(
                     process.getTotalTimeSeconds() +
                             process.getProcessSessionTimeSeconds());
+            process.setProcessSessionTimeSeconds(0);
+            process.setProcessStartTimeInApp(System.currentTimeMillis());
         }
     }
 

@@ -11,7 +11,10 @@ import javafx.scene.Scene;
 import javafx.scene.chart.PieChart;
 import javafx.scene.control.*;
 import javafx.beans.property.*;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+
+import java.io.File;
 
 public class MainChartController {
 
@@ -24,17 +27,10 @@ public class MainChartController {
     @FXML private TableColumn<ProcessModel, Long>   colDuration;
     @FXML private PieChart pieChart;
 
-    @FXML private Label labelProductivity;
     @FXML private Label labelWork;
-    @FXML private Label labelSocialAndCommunication;
-    @FXML private Label labelWebBrowsers;
-    @FXML private Label labelEntertainment;
-    @FXML private Label labelCreativity;
-    @FXML private Label labelGaming;
+    @FXML private Label labelFun;
     @FXML private Label labelOther;
     @FXML private Label labelUncategorized;
-
-    private boolean pieChartInitialized = false;
 
     @FXML
     public void initialize() {
@@ -99,30 +95,15 @@ public class MainChartController {
                 items.setAll(MainApp.registry.getAllProcesses());
             }
 
-            // azuriraj pie chart — uvek postavi novu listu, bez animacije
+            // azuriraj pie chart
             var stats = MainApp.analyticsService.getProcessesTimePerCategory();
-            System.out.println("Productivity value: " + stats.getOrDefault(Category.Productivity, 0L));
-            System.out.println("Gaming value: " + stats.getOrDefault(Category.Gaming, 0L));
-            System.out.println("Uncategorized value: " + stats.getOrDefault(Category.Uncategorized, 0L));
-
-
 
             pieChart.setAnimated(false);
             pieChart.setData(FXCollections.observableArrayList(
-                    new PieChart.Data("Productivity",
-                            stats.getOrDefault(Category.Productivity, 0L)),
                     new PieChart.Data("Work",
                             stats.getOrDefault(Category.Work, 0L)),
-                    new PieChart.Data("Social",
-                            stats.getOrDefault(Category.Social_and_Communication, 0L)),
-                    new PieChart.Data("Web",
-                            stats.getOrDefault(Category.WebBrowsers, 0L)),
-                    new PieChart.Data("Entertainment",
-                            stats.getOrDefault(Category.Entertainment, 0L)),
-                    new PieChart.Data("Creativity",
-                            stats.getOrDefault(Category.Creativity, 0L)),
-                    new PieChart.Data("Gaming",
-                            stats.getOrDefault(Category.Gaming, 0L)),
+                    new PieChart.Data("Fun",
+                            stats.getOrDefault(Category.Fun, 0L)),
                     new PieChart.Data("Other",
                             stats.getOrDefault(Category.Other, 0L)),
                     new PieChart.Data("Uncategorized",
@@ -130,21 +111,10 @@ public class MainChartController {
             ));
 
             // azuriraj labele
-            labelProductivity.setText("Productivity: " +
-                    formatTime(stats.getOrDefault(Category.Productivity, 0L)));
             labelWork.setText("Work: " +
                     formatTime(stats.getOrDefault(Category.Work, 0L)));
-            labelSocialAndCommunication.setText("Social: " +
-                    formatTime(stats.getOrDefault(
-                            Category.Social_and_Communication, 0L)));
-            labelWebBrowsers.setText("Web Browsers: " +
-                    formatTime(stats.getOrDefault(Category.WebBrowsers, 0L)));
-            labelEntertainment.setText("Entertainment: " +
-                    formatTime(stats.getOrDefault(Category.Entertainment, 0L)));
-            labelCreativity.setText("Creativity: " +
-                    formatTime(stats.getOrDefault(Category.Creativity, 0L)));
-            labelGaming.setText("Gaming: " +
-                    formatTime(stats.getOrDefault(Category.Gaming, 0L)));
+            labelFun.setText("Fun: " +
+                    formatTime(stats.getOrDefault(Category.Fun, 0L)));
             labelOther.setText("Other: " +
                     formatTime(stats.getOrDefault(Category.Other, 0L)));
             labelUncategorized.setText("Uncategorized: " +
@@ -158,36 +128,12 @@ public class MainChartController {
         return hours + "h " + minutes + "m";
     }
 
-    @FXML private void onProductivityDetails() {
-        openCategoryView(Category.Productivity);
-    }
-
     @FXML private void onWorkDetails() {
         openCategoryView(Category.Work);
     }
 
-    @FXML private void onSocialAndCommunicationDetails() {
-        openCategoryView(Category.Social_and_Communication);
-    }
-
-    @FXML private void onWebBrowsersDetails() {
-        openCategoryView(Category.WebBrowsers);
-    }
-
     @FXML private void onFunDetails() {
-        openCategoryView(Category.Work);
-    }
-
-    @FXML private void onEntertainmentDetails() {
-        openCategoryView(Category.Entertainment);
-    }
-
-    @FXML private void onCreativityDetails() {
-        openCategoryView(Category.Creativity);
-    }
-
-    @FXML private void onGamingDetails() {
-        openCategoryView(Category.Gaming);
+        openCategoryView(Category.Fun);
     }
 
     @FXML private void onOtherDetails() {
@@ -200,12 +146,27 @@ public class MainChartController {
 
     @FXML
     private void onSave() {
-        MainApp.fileService.saveProcessesToJsonFile(MainApp.config.getMappingFile());
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Save Process Info");
+        fileChooser.setInitialFileName("process_info.json");
+        fileChooser.getExtensionFilters().add(
+                new FileChooser.ExtensionFilter("JSON Files", "*.json"));
+        File file = fileChooser.showSaveDialog(tableView.getScene().getWindow());
+        if (file != null) {
+            MainApp.fileService.saveProcessesToJsonFile(file.getAbsolutePath());
+        }
     }
 
     @FXML
     private void onLoad() {
-        MainApp.fileService.loadProcessesFromFileToApp(MainApp.config.getMappingFile());
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Load Process Info");
+        fileChooser.getExtensionFilters().add(
+                new FileChooser.ExtensionFilter("JSON Files", "*.json"));
+        File file = fileChooser.showOpenDialog(tableView.getScene().getWindow());
+        if (file != null) {
+            MainApp.fileService.loadProcessesFromFileToApp(file.getAbsolutePath());
+        }
     }
 
     @FXML

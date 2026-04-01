@@ -16,7 +16,7 @@ public class SnapshotScheduler {
     private final List<LocalTime> fixedTimes = new ArrayList<>();
     private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
 
-    public SnapshotScheduler(FileService fileService,long intervalSeconds ,String folder, List<String> fixedTimesFromFile) {
+    public SnapshotScheduler(FileService fileService, long intervalSeconds, String folder, List<String> fixedTimesFromFile) {
         this.fileService = fileService;
         this.folder = folder;
 
@@ -24,6 +24,13 @@ public class SnapshotScheduler {
             fixedTimes.add(LocalTime.parse(time, formatter));
         }
 
+        // periodican snapshot na osnovu intervala iz konfiguracije
+        if (intervalSeconds > 0) {
+            scheduledExecutorService.scheduleAtFixedRate(this::makeASnapshot,
+                    intervalSeconds, intervalSeconds, TimeUnit.SECONDS);
+        }
+
+        // provera fiksnih termina svake sekunde
         scheduledExecutorService.scheduleAtFixedRate(this::checkFixedTimes, 0, 1, TimeUnit.SECONDS);
     }
 

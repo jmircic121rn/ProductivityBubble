@@ -48,12 +48,7 @@ public class AnalyticsService implements Runnable{
     private void calculateStatistics() {
         Map<Category, Long> newTimePerCategory = new HashMap<>();
         newTimePerCategory.put(Category.Work, 0L);
-        newTimePerCategory.put(Category.Creativity, 0L);
-        newTimePerCategory.put(Category.Gaming, 0L);
-        newTimePerCategory.put(Category.Entertainment, 0L);
-        newTimePerCategory.put(Category.Productivity, 0L);
-        newTimePerCategory.put(Category.Social_and_Communication, 0L);
-        newTimePerCategory.put(Category.WebBrowsers, 0L);
+        newTimePerCategory.put(Category.Fun, 0L);
         newTimePerCategory.put(Category.Other, 0L);
         newTimePerCategory.put(Category.Uncategorized, 0L);
 
