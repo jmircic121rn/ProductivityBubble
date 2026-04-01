@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.productivitybuddy_janamircic_kids.ui.ProcessDetailController"
+            prefWidth="600" prefHeight="500"
+            stylesheets="@style.css">
+
+    <top>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Button text="← Back" onAction="#onBack"/>
+            <Label fx:id="labelTitle"
+                   text="Process Detail"
+                   styleClass="label-title"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox spacing="16" style="-fx-padding: 20;">
+
+            <HBox spacing="10">
+                <Label text="Name:" style="-fx-font-weight: bold;"/>
+                <Label fx:id="labelName" text="-"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="PID:" style="-fx-font-weight: bold;"/>
+                <Label fx:id="labelPid" text="-"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="CPU:" style="-fx-font-weight: bold;"/>
+                <Label fx:id="labelCpu" text="-"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="RAM:" style="-fx-font-weight: bold;"/>
+                <Label fx:id="labelRam" text="-"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Rank:" style="-fx-font-weight: bold;"/>
+                <Label fx:id="labelRank" text="-"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Total Time:" style="-fx-font-weight: bold;"/>
+                <Label fx:id="labelTime" text="-"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Tracking:" style="-fx-font-weight: bold;"/>
+                <Label fx:id="labelFreeze" text="Active"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Alias:" style="-fx-font-weight: bold;"/>
+                <TextField fx:id="fieldAlias" promptText="Enter alias"/>
+                <Button text="Set Alias" onAction="#onSetAlias"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Category:" style="-fx-font-weight: bold;"/>
+                <ComboBox fx:id="comboCategory" onAction="#onSetCategory"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Button text="Kill Process"
+                        onAction="#onKillProcess"
+                        style="-fx-background-color: #0d0d0d; -fx-text-fill: #FEC5E5;"/>
+                <Button fx:id="btnFreeze"
+                        text="Freeze Tracking"
+                        onAction="#onFreezeTracking"/>
+            </HBox>
+
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Button text="Save Changes" onAction="#onSave"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

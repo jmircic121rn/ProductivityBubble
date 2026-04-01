@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.productivitybuddy_janamircic_kids.ui.MainChartController"
+            prefWidth="900" prefHeight="600" stylesheets="@style.css">
+
+    <top>
+        <Label text="Productivity Buddy"
+               styleClass="label-title"
+               BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <TableView fx:id="tableView"
+                   prefWidth="550" prefHeight="500">
+            <columns>
+                <TableColumn fx:id="colName"     text="Name"/>
+                <TableColumn fx:id="colAlias"     text="Alias"/>
+                <TableColumn fx:id="colCategory" text="Category"/>
+                <TableColumn fx:id="colCpu"       text="CPU (%)"/>
+                <TableColumn fx:id="colRam"       text="RAM (MB)"/>
+                <TableColumn fx:id="colDuration"     text="Duration (seconds)"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <right>
+        <VBox spacing="10" style="-fx-padding: 10;">
+
+            <PieChart fx:id="pieChart"
+                      prefWidth="280" prefHeight="250"/>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelProductivity" text="Productivity: 0h"/>
+                <Button text="Details"
+                        onAction="#onProductivityDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelWork" text="Work: 0h"/>
+                <Button text="Details"
+                        onAction="#onWorkDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelSocialAndCommunication" text="Social and Communication: 0h"/>
+                <Button text="Details"
+                        onAction="#onSocialAndCommunicationDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelWebBrowsers" text="WebBrowsers: 0h"/>
+                <Button text="Details"
+                        onAction="#onWebBrowsersDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelFun" text="Fun: 0h"/>
+                <Button text="Details"
+                        onAction="#onFunDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelEntertainment" text="Entertainment: 0h"/>
+                <Button text="Details" onAction="#onEntertainmentDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelCreativity" text="Creativity: 0h"/>
+                <Button text="Details" onAction="#onCreativityDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelGaming" text="Gaming: 0h"/>
+                <Button text="Details" onAction="#onGamingDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelOther" text="Other: 0h"/>
+                <Button text="Details"
+                        onAction="#onOtherDetails"/>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="10">
+                <Label fx:id="labelUncategorized" text="Uncategorized: 0h"/>
+                <Button text="Details" onAction="#onUncategorizedDetails"/>
+            </HBox>
+
+        </VBox>
+    </right>
+
+    <bottom>
+        <HBox spacing="10" style="-fx-padding: 10;"
+              BorderPane.alignment="CENTER">
+            <Button text="Save"     onAction="#onSave"/>
+            <Button text="Load"     onAction="#onLoad"/>
+            <Button text="Shutdown" onAction="#onShutdown"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

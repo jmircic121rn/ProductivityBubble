@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.productivitybuddy_janamircic_kids.ui.CategoryController"
+            prefWidth="700" prefHeight="500"
+            stylesheets="@style.css">
+
+    <top>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Button text="← Back" onAction="#onBack"/>
+            <Label fx:id="labelTitle"
+                   text="Category"
+                   styleClass="label-title"/>
+        </HBox>
+    </top>
+
+    <center>
+        <TableView fx:id="tableView"
+                   prefWidth="420" prefHeight="440">
+            <columns>
+                <TableColumn fx:id="colName"     text="Name"/>
+                <TableColumn fx:id="colAlias"    text="Alias"/>
+                <TableColumn fx:id="colCpu"      text="CPU (%)"/>
+                <TableColumn fx:id="colRam"      text="RAM (MB)"/>
+                <TableColumn fx:id="colDuration" text="Duration"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <right>
+        <VBox styleClass="right-panel" spacing="10"
+              prefWidth="240">
+            <Label text="Top 10 by Time"
+                   style="-fx-font-weight: bold;"/>
+            <ListView fx:id="top10List"
+                      prefHeight="400"/>
+        </VBox>
+    </right>
+
+</BorderPane>
