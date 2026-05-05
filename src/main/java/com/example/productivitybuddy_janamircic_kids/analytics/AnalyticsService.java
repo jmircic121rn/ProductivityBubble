@@ -57,7 +57,9 @@ public class AnalyticsService implements Runnable{
         for(ProcessModel processModel : allProcesses) {
             long totalTimeForProcess = processModel.getProcessSessionTimeSeconds() + processModel.getTotalTimeSeconds();
             if (totalTimeForProcess > 0) {
-                newTimePerCategory.put(processModel.getCategory(), totalTimeForProcess + newTimePerCategory.get(processModel.getCategory()));
+                Category cat = processModel.getCategory();
+                if (cat == null) cat = Category.Uncategorized;
+                newTimePerCategory.merge(cat, totalTimeForProcess, Long::sum);
             }
         }
 

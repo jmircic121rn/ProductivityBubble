@@ -3,10 +3,14 @@ package com.example.productivitybuddy_janamircic_kids.ui;
 import com.example.productivitybuddy_janamircic_kids.MainApp;
 import com.example.productivitybuddy_janamircic_kids.model.Category;
 import com.example.productivitybuddy_janamircic_kids.model.ProcessModel;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 public class ProcessDetailController {
 
@@ -23,6 +27,7 @@ public class ProcessDetailController {
     @FXML private Button btnFreeze;
 
     private ProcessModel process;
+    private Timeline refreshTimeline;
 
     @FXML
     public void initialize() {
@@ -40,6 +45,23 @@ public class ProcessDetailController {
         comboCategory.setValue(process.getCategory());
 
         osvezi();
+        startAutoRefresh();
+    }
+
+    private void startAutoRefresh() {
+        long interval = MainApp.config.getMonitorInterval();
+        refreshTimeline = new Timeline(
+                new KeyFrame(Duration.millis(interval), e -> osvezi())
+        );
+        refreshTimeline.setCycleCount(Animation.INDEFINITE);
+        refreshTimeline.play();
+    }
+
+    public void stopAutoRefresh() {
+        if (refreshTimeline != null) {
+            refreshTimeline.stop();
+            refreshTimeline = null;
+        }
     }
 
     public void osvezi() {
@@ -118,6 +140,7 @@ public class ProcessDetailController {
 
     @FXML
     private void onBack() {
+        stopAutoRefresh();
         Stage stage = (Stage) labelName.getScene().getWindow();
         stage.close();
     }
@@ -134,5 +157,6 @@ public class ProcessDetailController {
         MainApp.fileService.saveProcessesToJsonFile(
                 MainApp.config.getMappingFile());
         MainApp.mainController.refresh();
+        onBack();
     }
 }

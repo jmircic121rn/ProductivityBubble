@@ -1,123 +1,333 @@
 {
   "processes": [
     {
-      "originalName": "PhotosPicker",
-      "aliasName": "PhotosPicker",
+      "originalName": "88241",
+      "aliasName": "88241",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 0
+      "totalTimeSeconds": 29
     },
     {
-      "originalName": "94323",
-      "aliasName": "94323",
+      "originalName": "mapssyncd",
+      "aliasName": "mapssyncd",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 9
+      "totalTimeSeconds": 58
     },
     {
-      "originalName": "88060",
-      "aliasName": "88060",
+      "originalName": "Code Helper (GPU)",
+      "aliasName": "Code Helper (GPU)",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 0
+      "totalTimeSeconds": 4013
     },
     {
-      "originalName": "EABackgroundAgent",
-      "aliasName": "EABackgroundAgent",
+      "originalName": "UserNotificationCenter",
+      "aliasName": "UserNotificationCenter",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
+      "totalTimeSeconds": 4013
     },
     {
-      "originalName": "7401",
-      "aliasName": "7401",
+      "originalName": "1331",
+      "aliasName": "1331",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 69
+      "totalTimeSeconds": 4014
     },
     {
-      "originalName": "94348",
-      "aliasName": "94348",
+      "originalName": "88005",
+      "aliasName": "88005",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 9
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88246",
+      "aliasName": "88246",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88245",
+      "aliasName": "88245",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88244",
+      "aliasName": "88244",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88243",
+      "aliasName": "88243",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "com.apple.geod",
+      "aliasName": "com.apple.geod",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "SiriNCService",
+      "aliasName": "SiriNCService",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "universalaccessd",
+      "aliasName": "universalaccessd",
+      "category": "Other",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "fontd",
+      "aliasName": "fontd",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "DiskUnmountWatcher",
+      "aliasName": "DiskUnmountWatcher",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "1110",
+      "aliasName": "1110",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "passd",
+      "aliasName": "passd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4074
+    },
+    {
+      "originalName": "crashpad_handler",
+      "aliasName": "crashpad_handler",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "1107",
+      "aliasName": "1107",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "0",
+      "aliasName": "0",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "Viber",
+      "aliasName": "Viber",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "1",
+      "aliasName": "1",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "WiFiAgent",
+      "aliasName": "WiFiAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "11879",
+      "aliasName": "11879",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "1102",
+      "aliasName": "1102",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "1100",
+      "aliasName": "1100",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "PackageThumbnailExtension",
+      "aliasName": "PackageThumbnailExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "922",
+      "aliasName": "922",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "923",
+      "aliasName": "923",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "924",
+      "aliasName": "924",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "mediaremoteagent",
+      "aliasName": "mediaremoteagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "926",
+      "aliasName": "926",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "927",
+      "aliasName": "927",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "928",
+      "aliasName": "928",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "ContextService",
+      "aliasName": "ContextService",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4009
+    },
+    {
+      "originalName": "68773",
+      "aliasName": "68773",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "sirittsd",
+      "aliasName": "sirittsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "secinitd",
+      "aliasName": "secinitd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 577
+    },
+    {
+      "originalName": "searchpartyuseragent",
+      "aliasName": "searchpartyuseragent",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
     },
     {
       "originalName": "zsh",
       "aliasName": "zsh",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 18
-    },
-    {
-      "originalName": "appstoreagent",
-      "aliasName": "appstoreagent",
-      "category": "Uncategorized",
-      "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
-    },
-    {
-      "originalName": "exchangesyncd",
-      "aliasName": "exchangesyncd",
-      "category": "Uncategorized",
-      "isTrackingFreezed": false,
       "totalTimeSeconds": 0
     },
     {
-      "originalName": "claude",
-      "aliasName": "claude",
+      "originalName": "axassetsd",
+      "aliasName": "axassetsd",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 11
+      "totalTimeSeconds": 79
     },
     {
-      "originalName": "java",
-      "aliasName": "java",
+      "originalName": "88028",
+      "aliasName": "88028",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 9
+      "totalTimeSeconds": 29
     },
     {
-      "originalName": "696",
-      "aliasName": "696",
+      "originalName": "88148",
+      "aliasName": "88148",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 9
+      "totalTimeSeconds": 29
     },
     {
-      "originalName": "FindMyWidgetPeople",
-      "aliasName": "FindMyWidgetPeople",
+      "originalName": "88026",
+      "aliasName": "88026",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 0
+      "totalTimeSeconds": 29
     },
     {
-      "originalName": "697",
-      "aliasName": "697",
+      "originalName": "87056",
+      "aliasName": "87056",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 0
+      "totalTimeSeconds": 29
     },
     {
-      "originalName": "generativeexperiencesd",
-      "aliasName": "generativeexperiencesd",
+      "originalName": "69860",
+      "aliasName": "69860",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 0
+      "totalTimeSeconds": 4014
     },
     {
-      "originalName": "Creative Cloud Content Manager.node",
-      "aliasName": "Creative Cloud Content Manager.node",
+      "originalName": "31216",
+      "aliasName": "31216",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 10
-    },
-    {
-      "originalName": "ControlCenterHelper",
-      "aliasName": "ControlCenterHelper",
-      "category": "Uncategorized",
-      "isTrackingFreezed": false,
-      "totalTimeSeconds": 11
+      "totalTimeSeconds": 29
     },
     {
       "originalName": "Code Helper (Renderer)",
@@ -127,60 +337,2748 @@
       "totalTimeSeconds": 0
     },
     {
-      "originalName": "networkserviceproxy",
-      "aliasName": "networkserviceproxy",
+      "originalName": "88145",
+      "aliasName": "88145",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "818",
+      "aliasName": "818",
+      "category": "Other",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "88010",
+      "aliasName": "88010",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "replayd",
+      "aliasName": "replayd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 710
+    },
+    {
+      "originalName": "4640",
+      "aliasName": "4640",
+      "category": "Other",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "triald",
+      "aliasName": "triald",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "Mockup",
+      "aliasName": "Mockup",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "gamecontrolleragentd",
+      "aliasName": "gamecontrolleragentd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 61
+    },
+    {
+      "originalName": "deleted",
+      "aliasName": "deleted",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "WallpaperAerialsExtension",
+      "aliasName": "WallpaperAerialsExtension",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "routined",
+      "aliasName": "routined",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "88019",
+      "aliasName": "88019",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "700",
+      "aliasName": "700",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "Microsoft Outlook",
+      "aliasName": "Microsoft Outlook",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "WallpaperGradientExtension",
+      "aliasName": "WallpaperGradientExtension",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "4997",
+      "aliasName": "4997",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "88164",
+      "aliasName": "88164",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88042",
+      "aliasName": "88042",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88041",
+      "aliasName": "88041",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88040",
+      "aliasName": "88040",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "Safari",
+      "aliasName": "Safari",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "amsaccountsd",
+      "aliasName": "amsaccountsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "52098",
+      "aliasName": "52098",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "27165",
+      "aliasName": "27165",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "claude",
+      "aliasName": "claude",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
       "totalTimeSeconds": 0
     },
     {
-      "originalName": "ContinuityCaptureAgent",
-      "aliasName": "ContinuityCaptureAgent",
-      "category": "Uncategorized",
+      "originalName": "containermanagerd",
+      "aliasName": "containermanagerd",
+      "category": "Work",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
+      "totalTimeSeconds": 4014
     },
     {
-      "originalName": "com.apple.SafariPlatformSupport.Helper",
-      "aliasName": "com.apple.SafariPlatformSupport.Helper",
-      "category": "Uncategorized",
+      "originalName": "helper",
+      "aliasName": "helper",
+      "category": "Work",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 37
+      "totalTimeSeconds": 4014
     },
     {
-      "originalName": "83294",
-      "aliasName": "83294",
-      "category": "Uncategorized",
+      "originalName": "Google Chrome",
+      "aliasName": "Google Chrome",
+      "category": "Work",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 11
+      "totalTimeSeconds": 4014
     },
     {
-      "originalName": "donotdisturbd",
-      "aliasName": "donotdisturbd",
+      "originalName": "710",
+      "aliasName": "710",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "bird",
+      "aliasName": "bird",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "713",
+      "aliasName": "713",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "714",
+      "aliasName": "714",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "WallpaperSettingsIntents",
+      "aliasName": "WallpaperSettingsIntents",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4019
+    },
+    {
+      "originalName": "837",
+      "aliasName": "837",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "ScreenTimeWidgetExtension",
+      "aliasName": "ScreenTimeWidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "networkserviceproxy",
+      "aliasName": "networkserviceproxy",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "CloudTelemetryService",
+      "aliasName": "CloudTelemetryService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "uTorrent Web",
+      "aliasName": "uTorrent Web",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "iCloudNotificationAgent",
+      "aliasName": "iCloudNotificationAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "sharingd",
+      "aliasName": "sharingd",
+      "category": "Work",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "83814",
+      "aliasName": "83814",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "assistantd",
+      "aliasName": "assistantd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "cfprefsd",
+      "aliasName": "cfprefsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "600",
+      "aliasName": "600",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "601",
+      "aliasName": "601",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "603",
+      "aliasName": "603",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "604",
+      "aliasName": "604",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "605",
+      "aliasName": "605",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "607",
+      "aliasName": "607",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "608",
+      "aliasName": "608",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "MessagesBlastDoorService",
+      "aliasName": "MessagesBlastDoorService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 61
+    },
+    {
+      "originalName": "88275",
+      "aliasName": "88275",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 30
+    },
+    {
+      "originalName": "88065",
+      "aliasName": "88065",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 30
+    },
+    {
+      "originalName": "pboard",
+      "aliasName": "pboard",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "88063",
+      "aliasName": "88063",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88060",
+      "aliasName": "88060",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "usernoted",
+      "aliasName": "usernoted",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "14070",
+      "aliasName": "14070",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "itunescloudd",
+      "aliasName": "itunescloudd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "WindowManager",
+      "aliasName": "WindowManager",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "calaccessd",
+      "aliasName": "calaccessd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "peopled",
+      "aliasName": "peopled",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "UsageTrackingAgent",
+      "aliasName": "UsageTrackingAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "850",
+      "aliasName": "850",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "lockoutagent",
+      "aliasName": "lockoutagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "730",
+      "aliasName": "730",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "2489",
+      "aliasName": "2489",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "610",
+      "aliasName": "610",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "Electron",
+      "aliasName": "Electron",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "PowerChime",
+      "aliasName": "PowerChime",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "88066",
+      "aliasName": "88066",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88053",
+      "aliasName": "88053",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
     },
     {
       "originalName": "syncdefaultsd",
       "aliasName": "syncdefaultsd",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
+      "totalTimeSeconds": 682
     },
     {
-      "originalName": "App Store",
-      "aliasName": "App Store",
+      "originalName": "contentlinkingd",
+      "aliasName": "contentlinkingd",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 9
+      "totalTimeSeconds": 737
     },
     {
-      "originalName": "StatusKitAgent",
-      "aliasName": "StatusKitAgent",
+      "originalName": "UserEventAgent",
+      "aliasName": "UserEventAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "1053",
+      "aliasName": "1053",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "OfficeThumbnailExtension",
+      "aliasName": "OfficeThumbnailExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Microsoft Word",
+      "aliasName": "Microsoft Word",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4031
+    },
+    {
+      "originalName": "980",
+      "aliasName": "980",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "CMFSyncAgent",
+      "aliasName": "CMFSyncAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "740",
+      "aliasName": "740",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "FindMyWidgetItems",
+      "aliasName": "FindMyWidgetItems",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "624",
+      "aliasName": "624",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "745",
+      "aliasName": "745",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "dmd",
+      "aliasName": "dmd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "CursorUIViewService",
+      "aliasName": "CursorUIViewService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "629",
+      "aliasName": "629",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "WallpaperLegacyExtension",
+      "aliasName": "WallpaperLegacyExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "Opera Helper (Renderer)",
+      "aliasName": "Opera Helper (Renderer)",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 2
+    },
+    {
+      "originalName": "contactsd",
+      "aliasName": "contactsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "750",
+      "aliasName": "750",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "WallpaperControlsExtension",
+      "aliasName": "WallpaperControlsExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "630",
+      "aliasName": "630",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "JournalWidgets",
+      "aliasName": "JournalWidgets",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "631",
+      "aliasName": "631",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "1059",
+      "aliasName": "1059",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "632",
+      "aliasName": "632",
+      "category": "Fun",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "634",
+      "aliasName": "634",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "ScreenTimeAgent",
+      "aliasName": "ScreenTimeAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "636",
+      "aliasName": "636",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Microsoft PowerPoint",
+      "aliasName": "Microsoft PowerPoint",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "ControlCenterHelper",
+      "aliasName": "ControlCenterHelper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "637",
+      "aliasName": "637",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Claude Helper",
+      "aliasName": "Claude Helper",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
       "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "ACCFinderSync",
+      "aliasName": "ACCFinderSync",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "Messages",
+      "aliasName": "Messages",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "csnameddatad",
+      "aliasName": "csnameddatad",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "translationd",
+      "aliasName": "translationd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "Finder",
+      "aliasName": "Finder",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "proactived",
+      "aliasName": "proactived",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 1787
+    },
+    {
+      "originalName": "PlugInLibraryService",
+      "aliasName": "PlugInLibraryService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "CalendarWidgetExtension",
+      "aliasName": "CalendarWidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4055
+    },
+    {
+      "originalName": "appleaccountd",
+      "aliasName": "appleaccountd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "642",
+      "aliasName": "642",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "521",
+      "aliasName": "521",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "764",
+      "aliasName": "764",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "1069",
+      "aliasName": "1069",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Code Helper (Plugin)",
+      "aliasName": "Code Helper (Plugin)",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "523",
+      "aliasName": "523",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "printtool",
+      "aliasName": "printtool",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "4455",
+      "aliasName": "4455",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "525",
+      "aliasName": "525",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Google Chrome Helper",
+      "aliasName": "Google Chrome Helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "526",
+      "aliasName": "526",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "769",
+      "aliasName": "769",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "529",
+      "aliasName": "529",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "mlhostd",
+      "aliasName": "mlhostd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "usernotificationsd",
+      "aliasName": "usernotificationsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "com.apple.WebKit.Networking",
+      "aliasName": "com.apple.WebKit.Networking",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "WallpaperDynamicExtension",
+      "aliasName": "WallpaperDynamicExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "WebThumbnailExtension",
+      "aliasName": "WebThumbnailExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "identityservicesd",
+      "aliasName": "identityservicesd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "770",
+      "aliasName": "770",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "771",
+      "aliasName": "771",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "774",
+      "aliasName": "774",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "PodcastsWidget",
+      "aliasName": "PodcastsWidget",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "775",
+      "aliasName": "775",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "533",
+      "aliasName": "533",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "IFTelemetrySELFIngestor",
+      "aliasName": "IFTelemetrySELFIngestor",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "776",
+      "aliasName": "776",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "88306",
+      "aliasName": "88306",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "sharedfilelistd",
+      "aliasName": "sharedfilelistd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "535",
+      "aliasName": "535",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "899",
+      "aliasName": "899",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "536",
+      "aliasName": "536",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "5313",
+      "aliasName": "5313",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Claude Helper (Renderer)",
+      "aliasName": "Claude Helper (Renderer)",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "Spotify Helper (Renderer)",
+      "aliasName": "Spotify Helper (Renderer)",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "659",
+      "aliasName": "659",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "5315",
+      "aliasName": "5315",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "WallpaperImageExtension",
+      "aliasName": "WallpaperImageExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "sociallayerd",
+      "aliasName": "sociallayerd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "assistant_cdmd",
+      "aliasName": "assistant_cdmd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "trustd",
+      "aliasName": "trustd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "WallpaperAgent",
+      "aliasName": "WallpaperAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "5334",
+      "aliasName": "5334",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "UIKitSystem",
+      "aliasName": "UIKitSystem",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "IFTranscriptSELFIngestor",
+      "aliasName": "IFTranscriptSELFIngestor",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 60
+    },
+    {
+      "originalName": "660",
+      "aliasName": "660",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "540",
+      "aliasName": "540",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "663",
+      "aliasName": "663",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "AMPDeviceDiscoveryAgent",
+      "aliasName": "AMPDeviceDiscoveryAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "664",
+      "aliasName": "664",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "544",
+      "aliasName": "544",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "665",
+      "aliasName": "665",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "546",
+      "aliasName": "546",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "88654",
+      "aliasName": "88654",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "13750",
+      "aliasName": "13750",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "akd",
+      "aliasName": "akd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "distnoted",
+      "aliasName": "distnoted",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "corespotlightd",
+      "aliasName": "corespotlightd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "ManagedSettingsAgent",
+      "aliasName": "ManagedSettingsAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "textunderstandingd",
+      "aliasName": "textunderstandingd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "HomeEnergyWidgetsExtension",
+      "aliasName": "HomeEnergyWidgetsExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "7401",
+      "aliasName": "7401",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "talagentd",
+      "aliasName": "talagentd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "linkd",
+      "aliasName": "linkd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "photolibraryd",
+      "aliasName": "photolibraryd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "670",
+      "aliasName": "670",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "671",
+      "aliasName": "671",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "550",
+      "aliasName": "550",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "552",
+      "aliasName": "552",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "553",
+      "aliasName": "553",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "imagent",
+      "aliasName": "imagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "675",
+      "aliasName": "675",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "676",
+      "aliasName": "676",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "storeuid",
+      "aliasName": "storeuid",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "678",
+      "aliasName": "678",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "557",
+      "aliasName": "557",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "ReportCrash",
+      "aliasName": "ReportCrash",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "88204",
+      "aliasName": "88204",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "559",
+      "aliasName": "559",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "88203",
+      "aliasName": "88203",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "com.apple.mail.SpotlightIndexExtension",
+      "aliasName": "com.apple.mail.SpotlightIndexExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "88201",
+      "aliasName": "88201",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "87112",
+      "aliasName": "87112",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "89531",
+      "aliasName": "89531",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "TextThumbnailExtension",
+      "aliasName": "TextThumbnailExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "suggestd",
+      "aliasName": "suggestd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "StocksWidget",
+      "aliasName": "StocksWidget",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "corespeechd",
+      "aliasName": "corespeechd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "ctkd",
+      "aliasName": "ctkd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "Spotlight",
+      "aliasName": "Spotlight",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "BiomeAgent",
+      "aliasName": "BiomeAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "560",
+      "aliasName": "560",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "682",
+      "aliasName": "682",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "561",
+      "aliasName": "561",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "683",
+      "aliasName": "683",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "562",
+      "aliasName": "562",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "com.apple.AuthenticationServices.Helper",
+      "aliasName": "com.apple.AuthenticationServices.Helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 30
+    },
+    {
+      "originalName": "684",
+      "aliasName": "684",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "564",
+      "aliasName": "564",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "87108",
+      "aliasName": "87108",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "565",
+      "aliasName": "565",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "566",
+      "aliasName": "566",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "SafariWidgetExtension",
+      "aliasName": "SafariWidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4038
+    },
+    {
+      "originalName": "567",
+      "aliasName": "567",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "568",
+      "aliasName": "568",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "88313",
+      "aliasName": "88313",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88312",
+      "aliasName": "88312",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "siriactionsd",
+      "aliasName": "siriactionsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 596
+    },
+    {
+      "originalName": "WallpaperSonomaExtension",
+      "aliasName": "WallpaperSonomaExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "WallpaperSequoiaExtension",
+      "aliasName": "WallpaperSequoiaExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "ContextStoreAgent",
+      "aliasName": "ContextStoreAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "inputanalyticsd",
+      "aliasName": "inputanalyticsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "IMAutomaticHistoryDeletionAgent",
+      "aliasName": "IMAutomaticHistoryDeletionAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "diskimages-helper",
+      "aliasName": "diskimages-helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "pkd",
+      "aliasName": "pkd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 1801
+    },
+    {
+      "originalName": "photoanalysisd",
+      "aliasName": "photoanalysisd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "570",
+      "aliasName": "570",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Opera Helper",
+      "aliasName": "Opera Helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "694",
+      "aliasName": "694",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "573",
+      "aliasName": "573",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "695",
+      "aliasName": "695",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "574",
+      "aliasName": "574",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "findmylocateagent",
+      "aliasName": "findmylocateagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "696",
+      "aliasName": "696",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "575",
+      "aliasName": "575",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "697",
+      "aliasName": "697",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "TipsWidgetExtension",
+      "aliasName": "TipsWidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "577",
+      "aliasName": "577",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "generativeexperiencesd",
+      "aliasName": "generativeexperiencesd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 79
+    },
+    {
+      "originalName": "com.apple.hiservices-xpcservice",
+      "aliasName": "com.apple.hiservices-xpcservice",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 565
+    },
+    {
+      "originalName": "PAH_Extension",
+      "aliasName": "PAH_Extension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "ContinuityCaptureAgent",
+      "aliasName": "ContinuityCaptureAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "65351",
+      "aliasName": "65351",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Java Updater",
+      "aliasName": "Java Updater",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4017
+    },
+    {
+      "originalName": "NotificationCenter",
+      "aliasName": "NotificationCenter",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "581",
+      "aliasName": "581",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "582",
+      "aliasName": "582",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "583",
+      "aliasName": "583",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "com.apple.Virtualization.VirtualMachine",
+      "aliasName": "com.apple.Virtualization.VirtualMachine",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "swcd",
+      "aliasName": "swcd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 79
+    },
+    {
+      "originalName": "Mail",
+      "aliasName": "Mail",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "587",
+      "aliasName": "587",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "mbuseragent",
+      "aliasName": "mbuseragent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "588",
+      "aliasName": "588",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "callservicesd",
+      "aliasName": "callservicesd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "88211",
+      "aliasName": "88211",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "keychainsharingmessagingd",
+      "aliasName": "keychainsharingmessagingd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "DockHelper",
+      "aliasName": "DockHelper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Microsoft Excel",
+      "aliasName": "Microsoft Excel",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "PrintCenterWidgetExtension.macOS",
+      "aliasName": "PrintCenterWidgetExtension.macOS",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "secd",
+      "aliasName": "secd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "replicatord",
+      "aliasName": "replicatord",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 78
+    },
+    {
+      "originalName": "Claude Helper (Plugin)",
+      "aliasName": "Claude Helper (Plugin)",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "590",
+      "aliasName": "590",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "591",
+      "aliasName": "591",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "592",
+      "aliasName": "592",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "spotlightknowledged",
+      "aliasName": "spotlightknowledged",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "Spotify Helper",
+      "aliasName": "Spotify Helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "ServiceExtension",
+      "aliasName": "ServiceExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "596",
+      "aliasName": "596",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "597",
+      "aliasName": "597",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "java",
+      "aliasName": "java",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "milod",
+      "aliasName": "milod",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "QLPreviewGenerationExtension",
+      "aliasName": "QLPreviewGenerationExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "useractivityd",
+      "aliasName": "useractivityd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "recentsd",
+      "aliasName": "recentsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 60
+    },
+    {
+      "originalName": "15311",
+      "aliasName": "15311",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4030
+    },
+    {
+      "originalName": "accountsd",
+      "aliasName": "accountsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "Microsoft Edge",
+      "aliasName": "Microsoft Edge",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4039
+    },
+    {
+      "originalName": "chrome_crashpad_handler",
+      "aliasName": "chrome_crashpad_handler",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "40849",
+      "aliasName": "40849",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "IMTransferAgent",
+      "aliasName": "IMTransferAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "com.apple.Notes.WidgetExtension",
+      "aliasName": "com.apple.Notes.WidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "cdpd",
+      "aliasName": "cdpd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "icloudmailagent",
+      "aliasName": "icloudmailagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "WorldClockWidget",
+      "aliasName": "WorldClockWidget",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "managedappdistributionagent",
+      "aliasName": "managedappdistributionagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "AuthenticationServicesAgent",
+      "aliasName": "AuthenticationServicesAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "5047",
+      "aliasName": "5047",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "parsec-fbf",
+      "aliasName": "parsec-fbf",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "AdobeIPCBroker",
+      "aliasName": "AdobeIPCBroker",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4022
+    },
+    {
+      "originalName": "assessmentagent",
+      "aliasName": "assessmentagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 766
+    },
+    {
+      "originalName": "universalAccessAuthWarn",
+      "aliasName": "universalAccessAuthWarn",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "87978",
+      "aliasName": "87978",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "87976",
+      "aliasName": "87976",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "HomeWidget",
+      "aliasName": "HomeWidget",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "87974",
+      "aliasName": "87974",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "PeopleWidget_macOSExtension",
+      "aliasName": "PeopleWidget_macOSExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "JournalWidgetsSecure",
+      "aliasName": "JournalWidgetsSecure",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "5052",
+      "aliasName": "5052",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4023
+    },
+    {
+      "originalName": "Calendar",
+      "aliasName": "Calendar",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "UniversalControl",
+      "aliasName": "UniversalControl",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 1791
+    },
+    {
+      "originalName": "imklaunchagent",
+      "aliasName": "imklaunchagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "CredentialProviderExtensionHelper",
+      "aliasName": "CredentialProviderExtensionHelper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 30
+    },
+    {
+      "originalName": "ShortcutsViewService",
+      "aliasName": "ShortcutsViewService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 565
+    },
+    {
+      "originalName": "87969",
+      "aliasName": "87969",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 30
+    },
+    {
+      "originalName": "87847",
+      "aliasName": "87847",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "87968",
+      "aliasName": "87968",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "Dock",
+      "aliasName": "Dock",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "fileproviderd",
+      "aliasName": "fileproviderd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "87966",
+      "aliasName": "87966",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "SystemUIServer",
+      "aliasName": "SystemUIServer",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "csimporter",
+      "aliasName": "csimporter",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "87960",
+      "aliasName": "87960",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "rapportd",
+      "aliasName": "rapportd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "followupd",
+      "aliasName": "followupd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "16867",
+      "aliasName": "16867",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "com.apple.Notes.SpotlightIndexExtension",
+      "aliasName": "com.apple.Notes.SpotlightIndexExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "keyboardservicesd",
+      "aliasName": "keyboardservicesd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "homed",
+      "aliasName": "homed",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "34141",
+      "aliasName": "34141",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Spotify",
+      "aliasName": "Spotify",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "FindMyWidgetPeople",
+      "aliasName": "FindMyWidgetPeople",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "MobileDeviceUpdater",
+      "aliasName": "MobileDeviceUpdater",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "WallpaperMacintoshExtension",
+      "aliasName": "WallpaperMacintoshExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "mediaanalysisd",
+      "aliasName": "mediaanalysisd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "com.apple.WebKit.GPU",
+      "aliasName": "com.apple.WebKit.GPU",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "ModelCatalogAgent",
+      "aliasName": "ModelCatalogAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 80
+    },
+    {
+      "originalName": "com.apple.SafariPlatformSupport.Helper",
+      "aliasName": "com.apple.SafariPlatformSupport.Helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "AccessibilityUIServer",
+      "aliasName": "AccessibilityUIServer",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "34010",
+      "aliasName": "34010",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "36319",
+      "aliasName": "36319",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "34013",
+      "aliasName": "34013",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "87987",
+      "aliasName": "87987",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "tipsd",
+      "aliasName": "tipsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "com.apple.dock.extra",
+      "aliasName": "com.apple.dock.extra",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4021
+    },
+    {
+      "originalName": "extensionkitservice",
+      "aliasName": "extensionkitservice",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "76618",
+      "aliasName": "76618",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "TextInputSwitcher",
+      "aliasName": "TextInputSwitcher",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "63442",
+      "aliasName": "63442",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4030
+    },
+    {
+      "originalName": "idea",
+      "aliasName": "idea",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "EABackgroundAgent",
+      "aliasName": "EABackgroundAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "AudiovisualThumbnailExtension",
+      "aliasName": "AudiovisualThumbnailExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "RemindersWidgetExtension",
+      "aliasName": "RemindersWidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "ScopedBookmarkAgent",
+      "aliasName": "ScopedBookmarkAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "commerce",
+      "aliasName": "commerce",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "com.apple.iCloudHelper",
+      "aliasName": "com.apple.iCloudHelper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "ContainerMetadataExtractor",
+      "aliasName": "ContainerMetadataExtractor",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 596
+    },
+    {
+      "originalName": "SafariBookmarksSyncAgent",
+      "aliasName": "SafariBookmarksSyncAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "dataaccessd",
+      "aliasName": "dataaccessd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "chronod",
+      "aliasName": "chronod",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "ImageThumbnailExtension",
+      "aliasName": "ImageThumbnailExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "Notes",
+      "aliasName": "Notes",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "87891",
+      "aliasName": "87891",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "parsecd",
+      "aliasName": "parsecd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "com.apple.quicklook.ThumbnailsAgent",
+      "aliasName": "com.apple.quicklook.ThumbnailsAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "IntelligencePlatformComputeService",
+      "aliasName": "IntelligencePlatformComputeService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "nsurlsessiond",
+      "aliasName": "nsurlsessiond",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "Code Helper",
+      "aliasName": "Code Helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "remindd",
+      "aliasName": "remindd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "Keychain Circle Notification",
+      "aliasName": "Keychain Circle Notification",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 732
+    },
+    {
+      "originalName": "com.apple.appkit.xpc.openAndSavePanelService",
+      "aliasName": "com.apple.appkit.xpc.openAndSavePanelService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "88731",
+      "aliasName": "88731",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "coreauthd",
+      "aliasName": "coreauthd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "liveactivitiesd",
+      "aliasName": "liveactivitiesd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 565
+    },
+    {
+      "originalName": "coreautha",
+      "aliasName": "coreautha",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "CoreServicesUIAgent",
+      "aliasName": "CoreServicesUIAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88087",
+      "aliasName": "88087",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88085",
+      "aliasName": "88085",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88084",
+      "aliasName": "88084",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88083",
+      "aliasName": "88083",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88082",
+      "aliasName": "88082",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88081",
+      "aliasName": "88081",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88080",
+      "aliasName": "88080",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "ShortcutsWidgetExtension",
+      "aliasName": "ShortcutsWidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "Siri",
+      "aliasName": "Siri",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "com.apple.Safari.History",
+      "aliasName": "com.apple.Safari.History",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "swtransparencyd",
+      "aliasName": "swtransparencyd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 30
+    },
+    {
+      "originalName": "fsnotifier",
+      "aliasName": "fsnotifier",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "CoreLocationAgent",
+      "aliasName": "CoreLocationAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 682
+    },
+    {
+      "originalName": "GMSSELFIngestor",
+      "aliasName": "GMSSELFIngestor",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 60
+    },
+    {
+      "originalName": "com.apple.WebKit.WebContent",
+      "aliasName": "com.apple.WebKit.WebContent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "BatteriesAvocadoWidgetExtension",
+      "aliasName": "BatteriesAvocadoWidgetExtension",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "cloudphotod",
+      "aliasName": "cloudphotod",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "1619",
+      "aliasName": "1619",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "WeatherWidget",
+      "aliasName": "WeatherWidget",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "TrustedPeersHelper",
+      "aliasName": "TrustedPeersHelper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "88075",
+      "aliasName": "88075",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "donotdisturbd",
+      "aliasName": "donotdisturbd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 577
     },
     {
       "originalName": "Google Chrome Helper (Renderer)",
@@ -190,67 +3088,613 @@
       "totalTimeSeconds": 0
     },
     {
-      "originalName": "ctkd",
-      "aliasName": "ctkd",
+      "originalName": "88194",
+      "aliasName": "88194",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
+      "totalTimeSeconds": 29
     },
     {
-      "originalName": "NotificationCenter",
-      "aliasName": "NotificationCenter",
+      "originalName": "intelligencecontextd",
+      "aliasName": "intelligencecontextd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "tccd",
+      "aliasName": "tccd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "CategoriesService",
+      "aliasName": "CategoriesService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4007
+    },
+    {
+      "originalName": "Core Sync",
+      "aliasName": "Core Sync",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "ShipIt",
+      "aliasName": "ShipIt",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
       "totalTimeSeconds": 0
     },
     {
-      "originalName": "parsecd",
-      "aliasName": "parsecd",
+      "originalName": "com.apple.CloudDocs.iCloudDriveFileProvider",
+      "aliasName": "com.apple.CloudDocs.iCloudDriveFileProvider",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "icdd",
+      "aliasName": "icdd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "Creative Cloud Helper",
+      "aliasName": "Creative Cloud Helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4039
+    },
+    {
+      "originalName": "SetStoreUpdateService",
+      "aliasName": "SetStoreUpdateService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "SidecarRelay",
+      "aliasName": "SidecarRelay",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "Adobe Crash Processor",
+      "aliasName": "Adobe Crash Processor",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "88079",
+      "aliasName": "88079",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "Opera",
+      "aliasName": "Opera",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "88077",
+      "aliasName": "88077",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "PhotosPicker",
+      "aliasName": "PhotosPicker",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "MTLCompilerService",
+      "aliasName": "MTLCompilerService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 30
+    },
+    {
+      "originalName": "amsondevicestoraged",
+      "aliasName": "amsondevicestoraged",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "CommCenter",
+      "aliasName": "CommCenter",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 682
+    },
+    {
+      "originalName": "DockControls",
+      "aliasName": "DockControls",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "IMDPersistenceAgent",
+      "aliasName": "IMDPersistenceAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "audioaccessoryd",
+      "aliasName": "audioaccessoryd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "59300",
+      "aliasName": "59300",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "ctkahp",
+      "aliasName": "ctkahp",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "familycircled",
+      "aliasName": "familycircled",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "24194",
+      "aliasName": "24194",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "AirPlayUIAgent",
+      "aliasName": "AirPlayUIAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "feedbackd",
+      "aliasName": "feedbackd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 766
+    },
+    {
+      "originalName": "NeptuneOneWallpaper",
+      "aliasName": "NeptuneOneWallpaper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "mobiletimerd",
+      "aliasName": "mobiletimerd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "neagent",
+      "aliasName": "neagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 58
+    },
+    {
+      "originalName": "siriknowledged",
+      "aliasName": "siriknowledged",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "88096",
+      "aliasName": "88096",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "avconferenced",
+      "aliasName": "avconferenced",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "iconservicesagent",
+      "aliasName": "iconservicesagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "8169",
+      "aliasName": "8169",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "ViewBridgeAuxiliary",
+      "aliasName": "ViewBridgeAuxiliary",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "postersyncd",
+      "aliasName": "postersyncd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "TextInputMenuAgent",
+      "aliasName": "TextInputMenuAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "mdworker_shared",
+      "aliasName": "mdworker_shared",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
       "totalTimeSeconds": 0
     },
     {
-      "originalName": "Code Helper",
-      "aliasName": "Code Helper",
+      "originalName": "Commander One",
+      "aliasName": "Commander One",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 9
+      "totalTimeSeconds": 4013
     },
     {
-      "originalName": "remindd",
-      "aliasName": "remindd",
+      "originalName": "BiomeSELFIngestor",
+      "aliasName": "BiomeSELFIngestor",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 10
+      "totalTimeSeconds": 60
     },
     {
-      "originalName": "Keychain Circle Notification",
-      "aliasName": "Keychain Circle Notification",
+      "originalName": "localizationswitcherd",
+      "aliasName": "localizationswitcherd",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
+      "totalTimeSeconds": 79
     },
     {
-      "originalName": "Code Helper (Plugin)",
-      "aliasName": "Code Helper (Plugin)",
+      "originalName": "msedge_crashpad_handler",
+      "aliasName": "msedge_crashpad_handler",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 28
+      "totalTimeSeconds": 4013
     },
     {
-      "originalName": "700",
-      "aliasName": "700",
+      "originalName": "PhotosReliveWidget",
+      "aliasName": "PhotosReliveWidget",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 21
+      "totalTimeSeconds": 4014
     },
     {
-      "originalName": "akd",
-      "aliasName": "akd",
+      "originalName": "Microsoft Edge Helper",
+      "aliasName": "Microsoft Edge Helper",
       "category": "Uncategorized",
       "isTrackingFreezed": false,
-      "totalTimeSeconds": 11
+      "totalTimeSeconds": 0
+    },
+    {
+      "originalName": "Creative Cloud Content Manager.node",
+      "aliasName": "Creative Cloud Content Manager.node",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "duetexpertd",
+      "aliasName": "duetexpertd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "1417",
+      "aliasName": "1417",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "maild",
+      "aliasName": "maild",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4002
+    },
+    {
+      "originalName": "StatusKitAgent",
+      "aliasName": "StatusKitAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "knowledge-agent",
+      "aliasName": "knowledge-agent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 3977
+    },
+    {
+      "originalName": "1671",
+      "aliasName": "1671",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "diagnostics_agent",
+      "aliasName": "diagnostics_agent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "loginwindow",
+      "aliasName": "loginwindow",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "amsengagementd",
+      "aliasName": "amsengagementd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "1421",
+      "aliasName": "1421",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4015
+    },
+    {
+      "originalName": "1420",
+      "aliasName": "1420",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "lsd",
+      "aliasName": "lsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "ControlCenter",
+      "aliasName": "ControlCenter",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "businessservicesd",
+      "aliasName": "businessservicesd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 61
+    },
+    {
+      "originalName": "mdwrite",
+      "aliasName": "mdwrite",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "GroupSessionService",
+      "aliasName": "GroupSessionService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "Claude",
+      "aliasName": "Claude",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "FindMyNotificationsService",
+      "aliasName": "FindMyNotificationsService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "appstoreagent",
+      "aliasName": "appstoreagent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "FeatureAccessAgent",
+      "aliasName": "FeatureAccessAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 79
+    },
+    {
+      "originalName": "1433",
+      "aliasName": "1433",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "appstorecomponentsd",
+      "aliasName": "appstorecomponentsd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "Adobe Desktop Service",
+      "aliasName": "Adobe Desktop Service",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "SAExtensionOrchestrator",
+      "aliasName": "SAExtensionOrchestrator",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "cloudd",
+      "aliasName": "cloudd",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "AppPredictionIntentsHelperService",
+      "aliasName": "AppPredictionIntentsHelperService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "VTDecoderXPCService",
+      "aliasName": "VTDecoderXPCService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 29
+    },
+    {
+      "originalName": "12184",
+      "aliasName": "12184",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "12186",
+      "aliasName": "12186",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "fontworker",
+      "aliasName": "fontworker",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "Terminal",
+      "aliasName": "Terminal",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "1443",
+      "aliasName": "1443",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "2411",
+      "aliasName": "2411",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "intents_helper",
+      "aliasName": "intents_helper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "mdbulkimport",
+      "aliasName": "mdbulkimport",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "AssetCacheLocatorService",
+      "aliasName": "AssetCacheLocatorService",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 59
+    },
+    {
+      "originalName": "PasswordBreachAgent",
+      "aliasName": "PasswordBreachAgent",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4013
+    },
+    {
+      "originalName": "migrationhelper",
+      "aliasName": "migrationhelper",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
+    },
+    {
+      "originalName": "904",
+      "aliasName": "904",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4012
+    },
+    {
+      "originalName": "ipcserver",
+      "aliasName": "ipcserver",
+      "category": "Uncategorized",
+      "isTrackingFreezed": false,
+      "totalTimeSeconds": 4014
     }
   ]
 }

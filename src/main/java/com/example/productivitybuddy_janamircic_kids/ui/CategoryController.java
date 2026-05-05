@@ -66,6 +66,7 @@ public class CategoryController {
                         Stage stage = new Stage();
                         stage.setTitle(selected.getOriginalName());
                         stage.setScene(scene);
+                        stage.setOnHidden(e -> controller.stopAutoRefresh());
                         stage.show();
                     } catch (Exception e) {
                         e.printStackTrace();

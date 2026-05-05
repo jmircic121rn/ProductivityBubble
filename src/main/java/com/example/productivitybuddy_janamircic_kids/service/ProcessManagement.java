@@ -5,7 +5,9 @@ import com.example.productivitybuddy_janamircic_kids.model.Category;
 import com.example.productivitybuddy_janamircic_kids.model.ProcessModel;
 
 import java.time.Instant;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
 import java.util.concurrent.TimeUnit;
@@ -16,12 +18,16 @@ public class ProcessManagement {
     private final ForkJoinPool pool;
     private static final int numForProcess = 10;
 
+    private volatile Map<Long, double[]> psData = new HashMap<>();
+
     public ProcessManagement(ProcessRegistry registryHashMapProcess) {
         this.registryHashMapProcess = registryHashMapProcess;
         this.pool = new ForkJoinPool();
     }
 
     public void getAllProcessesFromOS() {
+        psData = fetchAllPsData();
+
         List<ProcessHandle> allProcesses = ProcessHandle.allProcesses()
                 .toList();
 
@@ -80,8 +86,9 @@ public class ProcessManagement {
                 MainApp.fileService.applyPendingData(processName, process);
             }
 
-            double cpu = getCpuUsage(processId);
-            long ram = getRamUsage(processId);
+            double[] stats = psData.getOrDefault(processId, new double[]{0.0, 0.0});
+            double cpu = stats[0];
+            long ram = (long) stats[1];
 
             registryHashMapProcess.setCpuAndRamUsage(processName, cpu, ram);
         } catch (Exception e) {
@@ -101,35 +108,33 @@ public class ProcessManagement {
         }
     }
 
-    private double getCpuUsage(long pid) {
+    private Map<Long, double[]> fetchAllPsData() {
+        Map<Long, double[]> result = new HashMap<>();
         try {
             ProcessBuilder pb = new ProcessBuilder(
-                    "bash", "-c",
-                    "ps -p " + pid + " -o %cpu= 2>/dev/null");
+                    "ps", "-eo", "pid,%cpu,rss");
             pb.redirectErrorStream(true);
             Process process = pb.start();
-            String output = new String(process.getInputStream().readAllBytes()).trim();
-            if (output.isEmpty()) return 0.0;
-            return Double.parseDouble(output);
+            String output = new String(process.getInputStream().readAllBytes());
+            String[] lines = output.split("\n");
+            for (int i = 1; i < lines.length; i++) {
+                String line = lines[i].trim();
+                if (line.isEmpty()) continue;
+                String[] parts = line.split("\\s+");
+                if (parts.length >= 3) {
+                    try {
+                        long pid = Long.parseLong(parts[0]);
+                        double cpu = Double.parseDouble(parts[1]);
+                        long rssKb = Long.parseLong(parts[2]);
+                        result.put(pid, new double[]{cpu, rssKb / 1024.0});
+                    } catch (NumberFormatException ignored) {
+                    }
+                }
+            }
         } catch (Exception e) {
-            return 0.0;
+            e.printStackTrace();
         }
-    }
-
-    private long getRamUsage(long pid) {
-        try {
-            // ps -p <pid> -o rss= vraca RSS u KB
-            ProcessBuilder pb = new ProcessBuilder(
-                    "bash", "-c",
-                    "ps -p " + pid + " -o rss= 2>/dev/null");
-            pb.redirectErrorStream(true);
-            Process process = pb.start();
-            String output = new String(process.getInputStream().readAllBytes()).trim();
-            if (output.isEmpty()) return 0;
-            return Long.parseLong(output) / 1024; // konvertuj KB u MB
-        } catch (Exception e) {
-            return 0;
-        }
+        return result;
     }
 
 

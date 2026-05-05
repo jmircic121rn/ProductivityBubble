@@ -1,13 +1,11 @@
 package com.example.productivitybuddy_janamircic_kids.model;
 
 public class ProcessModel {
-    //za json
     private String originalName;
     private String aliasName;
     private Category category;
     private boolean isTrackingFreezed;
     private long totalTimeSeconds;
-    //za pracenje procesa gasenje paljenje
     private transient long processId;
     private transient double cpuUsage;
     private transient long ramUsage;

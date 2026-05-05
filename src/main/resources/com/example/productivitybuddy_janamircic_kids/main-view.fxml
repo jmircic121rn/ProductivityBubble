@@ -3,55 +3,98 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
 
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.productivitybuddy_janamircic_kids.ui.MainChartController"
-            prefWidth="900" prefHeight="600" stylesheets="@style.css">
+            prefWidth="950" prefHeight="650" stylesheets="@style.css">
 
     <top>
-        <Label text="Productivity Buddy"
-               styleClass="label-title"
-               BorderPane.alignment="CENTER"/>
+        <HBox alignment="CENTER" spacing="10" style="-fx-padding: 10 0 5 0;">
+            <ImageView fitWidth="30" fitHeight="30" preserveRatio="true">
+                <Image url="@mini_kitty.png"/>
+            </ImageView>
+            <Label text="Productivity Buddy"
+                   styleClass="label-title"/>
+            <ImageView fitWidth="30" fitHeight="30" preserveRatio="true">
+                <Image url="@mini_kitty.png"/>
+            </ImageView>
+        </HBox>
     </top>
 
     <center>
-        <TableView fx:id="tableView"
-                   prefWidth="550" prefHeight="500">
-            <columns>
-                <TableColumn fx:id="colName"     text="Name"/>
-                <TableColumn fx:id="colAlias"     text="Alias"/>
-                <TableColumn fx:id="colCategory" text="Category"/>
-                <TableColumn fx:id="colCpu"       text="CPU (%)"/>
-                <TableColumn fx:id="colRam"       text="RAM (MB)"/>
-                <TableColumn fx:id="colDuration"     text="Duration (seconds)"/>
-            </columns>
-        </TableView>
+        <VBox style="-fx-padding: 0 10 0 10;">
+            <TableView fx:id="tableView"
+                       VBox.vgrow="ALWAYS"
+                       prefWidth="560">
+                <columns>
+                    <TableColumn fx:id="colName"     text="Name" prefWidth="120"/>
+                    <TableColumn fx:id="colAlias"    text="Alias" prefWidth="100"/>
+                    <TableColumn fx:id="colCategory" text="Category" prefWidth="90"/>
+                    <TableColumn fx:id="colCpu"      text="CPU (%)" prefWidth="70"/>
+                    <TableColumn fx:id="colRam"      text="RAM (MB)" prefWidth="80"/>
+                    <TableColumn fx:id="colDuration"    text="Duration" prefWidth="90"/>
+                </columns>
+            </TableView>
+        </VBox>
     </center>
 
     <right>
-        <VBox spacing="10" style="-fx-padding: 10;">
+        <VBox spacing="8" styleClass="right-panel" style="-fx-padding: 12;"
+              prefWidth="310">
 
             <PieChart fx:id="pieChart"
-                      prefWidth="280" prefHeight="250"/>
+                      prefWidth="280" prefHeight="180"
+                      minHeight="150" maxHeight="180"
+                      labelsVisible="false"
+                      legendVisible="false"/>
 
-            <HBox styleClass="category-row" spacing="10">
-                <Label fx:id="labelWork" text="Work: 0h"/>
+            <!-- Custom legenda sa bojama -->
+            <HBox spacing="12" alignment="CENTER" style="-fx-padding: 0 0 6 0;">
+                <HBox spacing="4" alignment="CENTER">
+                    <Region prefWidth="10" prefHeight="10"
+                            style="-fx-background-color: #E91E8C; -fx-background-radius: 3;"/>
+                    <Label text="Work" style="-fx-font-size: 11px; -fx-font-weight: bold;"/>
+                </HBox>
+                <HBox spacing="4" alignment="CENTER">
+                    <Region prefWidth="10" prefHeight="10"
+                            style="-fx-background-color: #FF9ED2; -fx-background-radius: 3;"/>
+                    <Label text="Fun" style="-fx-font-size: 11px; -fx-font-weight: bold;"/>
+                </HBox>
+                <HBox spacing="4" alignment="CENTER">
+                    <Region prefWidth="10" prefHeight="10"
+                            style="-fx-background-color: #8B5CF6; -fx-background-radius: 3;"/>
+                    <Label text="Other" style="-fx-font-size: 11px; -fx-font-weight: bold;"/>
+                </HBox>
+                <HBox spacing="4" alignment="CENTER">
+                    <Region prefWidth="10" prefHeight="10"
+                            style="-fx-background-color: #94A3B8; -fx-background-radius: 3;"/>
+                    <Label text="Uncat." style="-fx-font-size: 11px; -fx-font-weight: bold;"/>
+                </HBox>
+            </HBox>
+
+            <HBox styleClass="category-row" spacing="8">
+                <Label fx:id="labelWork" text="Work: 0h 0m"/>
+                <Region HBox.hgrow="ALWAYS"/>
                 <Button text="Details" onAction="#onWorkDetails"/>
             </HBox>
 
-            <HBox styleClass="category-row" spacing="10">
-                <Label fx:id="labelFun" text="Fun: 0h"/>
+            <HBox styleClass="category-row" spacing="8">
+                <Label fx:id="labelFun" text="Fun: 0h 0m"/>
+                <Region HBox.hgrow="ALWAYS"/>
                 <Button text="Details" onAction="#onFunDetails"/>
             </HBox>
 
-            <HBox styleClass="category-row" spacing="10">
-                <Label fx:id="labelOther" text="Other: 0h"/>
+            <HBox styleClass="category-row" spacing="8">
+                <Label fx:id="labelOther" text="Other: 0h 0m"/>
+                <Region HBox.hgrow="ALWAYS"/>
                 <Button text="Details" onAction="#onOtherDetails"/>
             </HBox>
 
-            <HBox styleClass="category-row" spacing="10">
-                <Label fx:id="labelUncategorized" text="Uncategorized: 0h"/>
+            <HBox styleClass="category-row" spacing="8">
+                <Label fx:id="labelUncategorized" text="Uncategorized: 0h 0m"/>
+                <Region HBox.hgrow="ALWAYS"/>
                 <Button text="Details" onAction="#onUncategorizedDetails"/>
             </HBox>
 
@@ -59,12 +102,22 @@
     </right>
 
     <bottom>
-        <HBox spacing="10" style="-fx-padding: 10;"
-              BorderPane.alignment="CENTER">
-            <Button text="Save"     onAction="#onSave"/>
-            <Button text="Load"     onAction="#onLoad"/>
-            <Button text="Shutdown" onAction="#onShutdown"/>
-        </HBox>
+        <StackPane>
+            <HBox styleClass="bottom-bar" spacing="12"
+                  BorderPane.alignment="CENTER">
+                <Button text="Save" onAction="#onSave"/>
+                <Button text="Load" onAction="#onLoad"/>
+                <Button text="Shutdown" onAction="#onShutdown" styleClass="button, button-shutdown"/>
+            </HBox>
+            <!-- Hello Kitty koja hoda po dnu -->
+            <HBox alignment="BOTTOM_LEFT" mouseTransparent="true"
+                  style="-fx-padding: 0 0 2 0;">
+                <ImageView fx:id="kittyWalk" fitWidth="42" fitHeight="42"
+                           preserveRatio="true">
+                    <Image url="@hello_kitty.png"/>
+                </ImageView>
+            </HBox>
+        </StackPane>
     </bottom>
 
 </BorderPane>

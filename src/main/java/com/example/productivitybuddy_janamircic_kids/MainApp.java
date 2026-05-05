@@ -106,7 +106,7 @@ public class MainApp extends Application {
             registry.updateTotalTimeForAllProcesses();
 
             fileService.saveProcessesToJsonFile(config.getMappingFile());
-            fileService.shutdown(); // ceka da se save zavrsi pre nego sto nastavi
+            fileService.shutdown();
 
             Platform.runLater(Platform::exit);
         }).start();
